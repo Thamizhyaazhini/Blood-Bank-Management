@@ -1,0 +1,162 @@
+/* .header{
+    position: fixed; 
+    top: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #594f4e;
+    color: rgb(239, 234, 234);
+    padding: 1em 2em;
+    z-index: 1000;
+    height: 60px;
+    box-shadow: 0 2px 4px hwb(200 96% 2% / 0.92); 
+    gap: 1em;
+}
+
+.logo-container {
+    display: flex;
+    align-items: center;
+}
+
+.logo-image {
+    height: 40px;
+    width: auto;
+    margin-right: 10px;
+}
+
+.logo-text {
+    font-size: 1.5em;
+    font-weight: bold;
+}
+.search-container {
+    flex-grow: 1;
+    display: flex;
+    justify-content: center;
+}
+
+.search-bar {
+    width: 50%;
+}
+
+.nav ul {
+    list-style: none;
+    display: flex;
+    gap: 1em;
+    margin: 0;
+    padding: 0;
+}
+
+.nav a {
+    color: rgb(252, 246, 246);
+    text-decoration: none;
+    font-size: 1em;
+    transition: color 0.3s;
+}
+
+.nav a:hover {
+    color: #ddd;
+}
+
+.user-info {
+    display: flex;
+    align-items: center;
+    gap: 0.5em;
+}
+
+.user-info span {
+    font-size: 1em;
+    cursor: pointer;
+}  */
+
+
+
+
+.header {
+    position: fixed; 
+    top: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #594f4e;
+    color: white;
+    padding: 1em 2em;
+    z-index: 1000;
+    height: 60px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); 
+    gap: 1em;
+}
+
+.logo-container {
+    display: flex;
+    align-items: center;
+}
+
+.logo-image {
+    height: 40px;
+    width: auto;
+    margin-right: 10px;
+}
+
+.logo-text {
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+.search-container {
+    flex-grow: 1;
+    display: flex;
+    justify-content: center;
+}
+
+.search-bar {
+    width: 50%;
+    background-color: white; /* Set the background color to white */
+    border-radius: 4px; /* Optional: Add border-radius for rounded corners */
+}
+
+.nav ul {
+    list-style: none;
+    display: flex;
+    gap: 1em;
+    margin: 0;
+    padding: 0;
+}
+
+.nav a {
+    color: white;
+    text-decoration: none;
+    font-size: 1em;
+    transition: color 0.3s;
+}
+
+.nav a:hover {
+    color: #ddd;
+}
+
+.user-info {
+    display: flex;
+    align-items: center;
+    gap: 0.5em;
+}
+
+.user-info span {
+    font-size: 1em;
+    cursor: pointer;
+}
+
+.emergency-call-button {
+    background-color: red;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.emergency-call-button:hover {
+    background-color: darkred;
+}

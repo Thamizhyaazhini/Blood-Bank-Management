@@ -1,0 +1,136 @@
+   /* .results-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 16px;
+  }
+  
+  .branch {
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    overflow: hidden;
+    padding: 16px;
+    width: 300px;
+  }
+  
+  .branch-image {
+    width: 80%;
+    height: auto;
+    border-radius: 8px;
+  }
+  
+  .branch-details {
+    margin-top: 8px;
+  }
+  
+  .branch-name {
+    font-size: 1.2em;
+    margin: 0;
+  }
+  
+  .branch-address {
+    color: #666;
+  }
+  
+   */
+
+
+/* src/components/Nearest.css */
+.background-wrapper {
+  background: url('https://images.unsplash.com/photo-1579154341184-22069e4614d2?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjB8fGJsb29kJTIwZG9uYXRpb258ZW58MHx8MHx8fDA%3D') no-repeat center center fixed;
+  background-size: cover;
+  min-height: 100vh; /* Ensure it covers the viewport height */
+  padding: 20px;
+}
+
+.nearest-container {
+  font-family: Arial, sans-serif;
+  padding: 20px;
+  background-color: #f4f4f9; /* Keep your existing container background */
+  max-width: 800px; /* Adjust width to make container smaller */
+  margin: 0 auto; /* Center the container horizontally */
+}
+
+h1 {
+  text-align: center;
+  color: #333;
+}
+
+.search-form {
+  max-width: 100%; /* Ensure form fits within container */
+  margin: 0 auto 30px auto;
+  padding: 15px;
+  /* background: white; */
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+.search-form label {
+  display: block;
+  margin-top: 10px;
+  font-weight: bold;
+  color: #555;
+}
+
+.search-form select, .search-form button {
+  width: 100%;
+  margin-top: 5px;
+  padding: 12px;
+  font-size: 16px;
+  border-radius: 4px;
+  border: 1px solid #ddd;
+  box-shadow: inset 0 1px 2px rgba(0,0,0,0.1);
+}
+
+.search-form button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.search-form button:hover {
+  background-color: #0056b3;
+}
+
+.results-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px; /* Adjust gap to fit smaller cards */
+  justify-content: center;
+}
+
+.result-card {
+  background: white;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  overflow: hidden;
+  width: 250px; /* Adjust card width to make them smaller */
+  transition: transform 0.3s ease-in-out;
+}
+
+.result-card:hover {
+  transform: scale(1.05);
+}
+
+.result-image {
+  width: 100%;
+  height: 150px; /* Adjust height for better fit */
+  object-fit: contain; /* Ensures image covers the area without distortion */
+}
+
+.result-info {
+  padding: 10px; /* Adjust padding for smaller cards */
+}
+
+.result-info h3 {
+  margin: 0;
+  color: #333;
+  font-size: 16px; /* Adjust font size for smaller cards */
+}
+
+.no-results {
+  text-align: center;
+  padding: 20px;
+  font-size: 18px;
+  color: #777;
+}

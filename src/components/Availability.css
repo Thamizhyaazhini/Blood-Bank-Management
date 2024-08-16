@@ -1,0 +1,140 @@
+ body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+}
+
+.availability-container {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  overflow: hidden;
+}
+
+.availability-container video {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  min-width: 100%;
+  min-height: 100%;
+  width: auto;
+  height: auto;
+  z-index: -1;
+  transform: translate(-50%, -50%);
+  background-size: cover;
+  opacity: 0.7;
+}
+
+.availability-box {
+
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  max-width: 400px;
+  width: 100%;
+  text-align: center;
+  position: relative;
+  z-index: 2;
+}
+
+.availability-title {
+  font-size: 24px;
+  color: #e74c3c;
+  margin-bottom: 20px;
+}
+
+.form-section p,
+.form-section label {
+  margin: 10px 0;
+  font-size: 18px;
+  display: block;
+  text-align: left;
+}
+
+.form-section select,
+.form-section input {
+  width: 50;
+  padding: 10px;
+  margin-top: 5px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+.search-button {
+  background-color: #e74c3c;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 20px;
+  width: 100%;
+}
+
+.search-button:hover {
+  background-color: #c0392b;
+}
+ .form-section h1 {
+  margin-top: 0;
+  color: #f44336; 
+}
+
+.form-section label {
+  display: block;
+  margin-top: 10px;
+  font-weight: bold;
+  color: #e0e0e0; 
+}
+
+.form-section input, .form-section textarea {
+  width: calc(100% - 20px); 
+  padding: 10px;
+  margin-top: 5px;
+  border-radius: 6px;
+  border: 1px solid #444;
+  background: rgba(255, 255, 255, 0.8); 
+}
+
+.form-section textarea {
+  height: 100px; 
+  resize: vertical; 
+}
+
+.form-section button {
+  margin-top: 10px;
+  padding: 12px 20px; 
+  font-size: 16px;
+  cursor: pointer;
+  border: none;
+  border-radius: 6px;
+  background-color: #f44336; 
+  color: white;
+  transition: background-color 0.3s, transform 0.2s; 
+}
+
+.form-section button:hover {
+  background-color: #c62828; 
+  transform: scale(1.05); 
+} 
+
+.results-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+.results-table th, .results-table td {
+  border: 1px solid #ddd;
+  padding: 12px; 
+  text-align: left;
+}
+
+.results-table th {
+  background-color: #f4f4f4;
+  font-weight: bold;
+} 
